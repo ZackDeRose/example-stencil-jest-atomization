@@ -95,11 +95,7 @@ function App() {
   return (
     <>
       <div>
-        <my-component
-          first="Stencil"
-          middle="'Don't call me a framework'"
-          last="JS"
-        ></my-component>
+        <my-component first="Stencil" middle="'Don't call me a framework'" last="JS"></my-component>
       </div>
     </>
   );
@@ -109,3 +105,8 @@ export default App;
 ```
 
 Check out this [Live Demo](https://stackblitz.com/edit/vitejs-vite-b6zuds?file=src%2FApp.tsx).
+
+## Research Findings
+
+`npx jest --listTests` - way of listing all test files according to jest
+`npx stencil test --spec -- src/components/my-component/my-component.spec.ts` - way to run only a specific test file

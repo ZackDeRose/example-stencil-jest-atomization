@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "build": {
+      "outputs": ["{workspaceRoot}/dist"],
+      "cache": true
+    },
+    "test": {
+      "outputs": ["{workspaceRoot}/coverage"],
+      "cache": true
+    }
+  },
+  "nxCloudId": "6825fc64e1976b01d29ada59",
+  "plugins": ["./stencil-jest-plugin.js"],
+  "useDaemonProcess": false
+}

@@ -24,3 +24,8 @@ $RECYCLE.BIN/
 Thumbs.db
 UserInterfaceState.xcuserstate
 .env
+
+
+
+.nx/cache
+.nx/workspace-data

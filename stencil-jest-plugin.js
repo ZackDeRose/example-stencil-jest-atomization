@@ -6,7 +6,6 @@ const FILE_TO_LOOK_FOR_TO_KNOW_WE_ARE_IN_A_STENCIL_PROJECT = '**/components.d.ts
 const stencilJestPlugin = [
   FILE_TO_LOOK_FOR_TO_KNOW_WE_ARE_IN_A_STENCIL_PROJECT,
   files => {
-    console.log('files', files);
     const toReturn = [];
 
     for (const file of files) {
